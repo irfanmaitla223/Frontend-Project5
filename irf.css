@@ -1,0 +1,239 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Whisper&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Madimi+One&family=Whisper&display=swap') */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Madimi+One&family=Pacifico&family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+/* font-family: "Rubik Gemstones", system-ui; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Rubik+Gemstones&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miltonian&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 10vh;
+    background-color: black;
+    /* border: 2px solid red; */
+    display: flex;
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 5vw;
+    height: 10vh;
+}
+.logo2 {
+    opacity: 1;
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+}
+.sufyan {
+    color: greenyellow;
+    margin: 0vw;
+    cursor: move;
+    font-family: "Mountains of Christmas", serif;
+    height: 8vh;
+    width: 0;
+}
+
+.logo2 {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    /* align-items: end; */
+    margin: 0vw 29.35vw;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: 30vw; */
+}
+
+nav ul li {
+    /* list-style: circle; */
+    list-style: none;
+    padding: 1vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    /* font-family: "Whisper", cursive; */
+}
+
+nav ul li a:hover {
+    /* color: red; */
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 4vw;
+    width: 30vw;
+}
+
+.search :hover {
+    font-weight: bolder;
+}
+
+.search input {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    height: 5vh;
+    /* border-radius: 5px; */
+    margin: 10px;
+}
+
+.srh {
+    cursor: progress;
+}
+
+.container {
+    min-height: calc(100vh - 10vh - 10vh);
+    align-items: center;
+    /* text-align: center; */
+    font-family: "Whisper", cursive;
+    width: 100vw;
+}
+
+.hr {
+    border: 2px solid greenyellow;
+    width: 99vw;
+}
+
+.slider image {
+    /* display: flex; */
+    /* display: inline; */
+    /* width: 20vw;
+    height: 30vh; */
+}
+
+.im2 {
+    /* width: 100vw;
+    height: 20vh;
+    display: flex; */
+    opacity: 1;
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .slider:hover .im2 {
+    opacity: 0.3;
+  }
+  .slider:hover .middle {
+    opacity: 1;
+  }
+  .text5 {
+    /* background-color:blue; */
+    color: blue;
+    font-size: 30px;
+    padding: 16px 32px;
+    font-family: "Miltonian", serif;
+  }
+
+/* .logo{
+    animation-name: irfan;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:inherit ;
+ } */
+/* @keyframes irfan{
+    from{
+        width: 20px;
+    }
+    to{
+        width: 70px;
+    }
+} */
+.card {
+    background-color: aliceblue;
+    /* border: 1px solid black; */
+    /* background-color: darkgrey; */
+    max-width: 90vw;
+    margin: 20px auto;
+    /* overflow: scroll; */
+    overflow: scroll;
+    max-height: 78vh;
+}
+
+.card-item {
+    width: auto;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 2vw;
+
+}
+
+#heading {
+    font-family: "Rubik Gemstones", system-ui;
+}
+
+/* #heading2{
+    font-family: "Whisper", cursive;
+} */
+.list-name {
+    font-family: "Courgette", cursive;
+    align-items: center;
+    text-align: center;
+}
+
+.list-name :hover {
+    color: darkgray;
+}
+
+/* .li-item{
+    margin: 0;
+    padding: 0;
+    list-style: circle;
+} */
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.dis {
+    color: darkgray;
+}
+
+/* p li :hover{
+    font-weight: bold;
+} */
+footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    /* font-family: "Madimi One", sans-serif; */
+    /* font-family: "Whisper", cursive; */
+    /* font-family: "Anton", sans-serif; */
+    font-family: "Pacifico", cursive;
+}

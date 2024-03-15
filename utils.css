@@ -1,0 +1,22 @@
+.flex-all-center{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-all-center :hover{
+    font-weight: bolder;
+    color: red;
+}
+.btn{
+    /* background-color: red; */
+    margin: -5px;
+    padding: 1px 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: "Pacifico", cursive;
+}
+.sufyan :hover{
+    color: red;
+    font-weight: bolder;
+}
